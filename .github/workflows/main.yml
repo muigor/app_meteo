@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20.3.0
-      - run: npm  run ci
-      - run: npm run test:unit
+      - run: npm   ci
+      - run: npm  test:unit
